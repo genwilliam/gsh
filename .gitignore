@@ -7,6 +7,7 @@
 *.dylib
 *.test
 *.out
+gsh
 
 ##### 构建与缓存目录
 # Go 编译缓存目录
