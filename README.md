@@ -13,8 +13,7 @@ gsh/
 ├── cmd/
 │   └── main.go         # 主入口：负责读取用户输入
 ├── internal/
-│   └── execinp/
-│       └── execinp.go  # 核心逻辑：解析并执行命令
+│   └── exec.go/        # 核心逻辑：解析并执行命令 
 └── go.mod              # 模块定义文件
 
 ```
