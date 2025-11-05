@@ -1,0 +1,47 @@
+##### Go 编译输出文件
+# 忽略可执行文件（Go build 或 run 生成的二进制）
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+##### 构建与缓存目录
+# Go 编译缓存目录
+/build/
+/bin/
+/dist/
+/out/
+
+# Go 模块缓存（由 go mod 下载的依赖）
+/vendor/
+
+##### 系统与编辑器文件
+# macOS 系统文件
+.DS_Store
+
+# Windows 系统文件
+Thumbs.db
+ehthumbs.db
+
+# JetBrains IDE（GoLand）配置缓存
+.idea/
+
+# VSCode 工作区设置
+.vscode/
+
+##### 临时与日志文件
+*.log
+*.tmp
+*.swp
+*.swo
+
+##### Go 模块文件（一般保留 go.mod / go.sum）
+# 如果你使用 go mod tidy 自动管理依赖，不需要忽略 go.sum
+# go.sum
+
+##### 环境变量文件（如果你后续需要配置敏感信息）
+.env
+.env.*
