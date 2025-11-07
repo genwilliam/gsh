@@ -12,8 +12,7 @@
 gsh/
 ├── cmd/
 │   └── main.go         # 主入口：负责读取用户输入
-├── internal/
-│   └── exec.go/        # 核心逻辑：解析并执行命令 
+├── internal/ 
 └── go.mod              # 模块定义文件
 
 ```
@@ -24,7 +23,7 @@ gsh/
 
 • internal/：放业务逻辑模块（不会被外部引用）；
 
-• go.mod：定义模块名（建议命名为 gsh）。
+• go.mod：定义模块名。
 
 ⸻
 
